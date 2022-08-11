@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 40vh;
+    background-color: black;
+}
+#main{
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.heading img {
+    height: 600px;
+    width: 100vw;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border: 2px solid pink;
+    text-align: center;
+    margin: 5% ;
+
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.heading{
+    width: 100vw;
+    height: 600px;
+}
+
